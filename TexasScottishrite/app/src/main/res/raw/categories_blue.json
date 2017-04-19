@@ -1,0 +1,477 @@
+[
+  {
+    "name": "Book City",
+    "id": "history",
+    "theme": "blue",
+    "action": "360",
+    "quizzes": [
+      {
+        "type": "fill-blank",
+        "question": "The first words spoken on the moon by Buzz Aldrin were these:",
+        "start": "Contact ",
+        "answer": "Light"
+      },
+      {
+        "type": "single-select-item",
+        "question": "What U.S. President committed an unpardonable sin by kissing the Queen Mother on the lips?",
+        "options": [
+          "George W. Bush",
+          "Jimmy Carter",
+          "Barack Obama",
+          "Lyndon B. Johnson",
+          "Ronald Reagan"
+        ],
+        "answer": [1]
+      },
+      {
+        "type": "true-false",
+        "question": "Cleopatra was Egyptian.",
+        "answer": false
+      },
+      {
+        "type": "true-false",
+        "question": "The Rosetta Stone is the name of the limestone slab that became the key for deciphering ancient Egyptian hieroglyphics.",
+        "answer": false
+      },
+      {
+        "type": "fill-blank",
+        "question": "Prior to 1664 New York was called:",
+        "start": "New ",
+        "answer": "Amsterdam"
+      },
+      {
+        "type": "multi-select",
+        "question": "What are the surnames of Bonnie and Clyde?",
+        "options": [
+          "Parson",
+          "Parker",
+          "Patterson",
+          "Barlow",
+          "Barret",
+          "Barrow"
+        ],
+        "answer": [
+          1,
+          5
+        ]
+      },
+      {
+        "type": "four-quarter",
+        "question": "Joan of Arc, in the 15th century, was the first female promoted to this rank in the French army:",
+        "options": [
+          "Lieutenant",
+          "Sergeant",
+          "General",
+          "Captain"
+        ],
+        "answer": [2]
+      },
+      {
+        "type": "picker",
+        "question": "In which year did William Shakespeare die?",
+        "min": 1615,
+        "max": 1635,
+        "answer": 1616
+      },
+      {
+        "type": "single-select",
+        "question": "On which island was Napoleon born?",
+        "options": [
+          "Sardinia",
+          "Corsica",
+          "Tahiti",
+          "Réunion",
+          "New Caledonia"
+        ],
+        "answer": [1]
+      },
+      {
+        "type": "multi-select",
+        "question": "Which states did the United States gain after the Mexican War?",
+        "options": [
+          "Arizona",
+          "New Mexico",
+          "Louisiana",
+          "California",
+          "Nevada",
+          "Utah",
+          "Texas"
+        ],
+        "answer": [
+          1,
+          3,
+          6
+        ]
+      }
+    ],
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "solved": "false"
+  },
+
+  {
+    "name": "Sports",
+    "id": "sports",
+    "theme": "purple",
+    "action": "cardboard",
+    "quizzes": [
+      {
+        "type": "fill-blank",
+        "question": "What is the national sport of Canada?",
+        "answer": "Lacrosse"
+      },
+      {
+        "type": "four-quarter",
+        "question": "Which country won every Olympic Men’s hockey gold medal from 1928 to 1956?",
+        "options": [
+          "Canada",
+          "Russia",
+          "India",
+          "USA"
+        ],
+        "answer": [2]
+      },
+      {
+        "type": "true-false",
+        "question": "A biathlon event consists of running a half marathon and biking 56 miles.",
+        "answer": false
+      },
+      {
+        "type": "picker",
+        "question": "How many players are in a game of water polo?",
+        "min": 10,
+        "max": 25,
+        "answer": 14
+      },
+      {
+        "type": "toggle-translate",
+        "question": "Which sports and team names are incorrectly associated?",
+        "options": [
+          [
+            "Cleveland Indians",
+            "Baseball"
+          ],
+          [
+            "Leicester Tigers",
+            "Rugby Union"
+          ],
+          [
+            "Bradford Bulls",
+            "Hockey"
+          ],
+          [
+            "Belle Vue Aces",
+            "Poker"
+          ],
+          [
+            "Wigan Wasps",
+            "Lacrosse"
+          ],
+          [
+            "Kent Spitfires",
+            "Cricket"
+          ]
+        ],
+        "answer": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "type": "multi-select",
+        "question": "Which cities have hosted the Olympic games?",
+        "options": [
+          "Athens",
+          "Lake Placid",
+          "Innsbruck",
+          "New York",
+          "Capetown",
+          "St. Mortiz"
+        ],
+        "answer": [
+          0,
+          1,
+          2,
+          4,
+          5
+        ]
+      },
+      {
+        "type": "four-quarter",
+        "question": "Which American was the best paid sportsman in 1920?",
+        "options": [
+          "Jack Dempsey",
+          "Babe Ruth",
+          "Big Bill Tilden",
+          "Bobby Jones"
+        ],
+        "answer": [1]
+      },
+      {
+        "type": "single-select-item",
+        "question": " What do you call a stadium used for cycling events?",
+        "options": [
+          "Cycleplex",
+          "Velodrome",
+          "Pumptrack",
+          "Speedway"
+        ],
+        "answer": [1]
+      },
+      {
+        "type": "fill-blank",
+        "question": "In 1954, Joe Di Maggio married Norma Jean Baker who was also known as?",
+        "answer": "Marilyn Monroe"
+      },
+      {
+        "type": "picker",
+        "question": "About how many kilometers are in a marathon?",
+        "min": 10,
+        "max": 65,
+        "answer": 42
+      }
+    ],
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "solved": "false"
+  },
+  {
+    "name": "Spellcast Game",
+    "id": "food",
+    "theme": "green",
+    "action": "game",
+    "quizzes": [
+      {
+        "type": "four-quarter",
+        "question": "Name the Italian, semi-soft, rich cheese with blue veins through it.",
+        "options": [
+          "Ricotta",
+          "Blue Cheese",
+          "Gorgonzola",
+          "Parmesan"
+        ],
+        "answer": [2]
+      },
+      {
+        "type": "true-false",
+        "question": "Coffee beans contain more caffeine than tea leaves.",
+        "answer": false
+      },
+      {
+        "type": "multi-select",
+        "question": "What are the three ingredients in mead (spices excluded)?",
+        "options": [
+          "Sugar",
+          "Honey",
+          "Cinnamon",
+          "Water",
+          "Brown Sugar",
+          "Yeast",
+          "Salt"
+        ],
+        "answer": [
+          1,
+          3,
+          5
+        ]
+      },
+      {
+        "type": "four-quarter",
+        "question": "What crop does the Colorado Beetle attack?",
+        "options": [
+          "Corn",
+          "Garlic",
+          "Potato",
+          "Wheat"
+        ],
+        "answer": [2]
+      },
+      {
+        "type": "single-select-item",
+        "question": "What vegetable did Mark Twain describe as “cabbage with a college education”?",
+        "options": [
+          "Spinach",
+          "Broccoli",
+          "Cauliflower",
+          "Kale"
+        ],
+        "answer": [2]
+      },
+      {
+        "type": "fill-blank",
+        "question": "What name is given to a sugar syrup which is gently heated until it browns?",
+        "answer": "Caramel"
+      },
+      {
+        "type": "single-select",
+        "question": "In Which city was chop suey invented?",
+        "options": [
+          "Hong Kong",
+          "Taipei",
+          "New York",
+          "San Francisco"
+        ],
+        "answer": [3]
+      },
+      {
+        "type": "picker",
+        "question": "One of the fattiest fishes is salmon. 4 ounces contains how many grams of fat?",
+        "min": 1,
+        "max": 10,
+        "answer": 9
+      },
+      {
+        "type": "fill-blank",
+        "question": "In which American State did chili con carne originate?",
+        "answer": "Texas"
+      },
+      {
+        "type": "four-quarter",
+        "question": "What is the correct name for a cluster or bunch of bananas?",
+        "options": [
+          "Foot",
+          "Hand",
+          "Flock",
+          "Pod"
+        ],
+        "answer": [1]
+      }
+    ],
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "solved": "false"
+  },
+  {
+    "name": "Starcast Game",
+    "id": "entertainment",
+    "theme": "red",
+    "action": "game",
+    "quizzes": [
+      {
+        "type": "fill-blank",
+        "question": "Where was superman born?",
+        "answer": "Krypton"
+      },
+      {
+        "type": "four-quarter",
+        "question": "What catchphrase is associated with the Daleks from Doctor Who?",
+        "options": [
+          "Eradicate",
+          "Exterminate",
+          "Eliminate",
+          "Execute"
+        ],
+        "answer": [1]
+      },
+      {
+        "type": "picker",
+        "question": "In the film Cool Hand Luke, how many hard boiled eggs did Paul Newman eat to win a bet?",
+        "min": 20,
+        "max": 80,
+        "answer": 50
+      },
+      {
+        "type": "true-false",
+        "question": "Frank Sinatra paid a $240,000 ransom to free his kidnapped son.",
+        "answer": true
+      },
+      {
+        "type": "multi-select",
+        "question": "Which two British actors have played Obi Wan Kenobi in the Star Wars films?",
+        "options": [
+          "Sir Alec Guinness",
+          "David Prowse",
+          "James Earl Jones",
+          "Harrison Ford",
+          "Ewan McGregor",
+          "Anthony Daniels"
+        ],
+        "answer": [
+          0,
+          4
+        ]
+      },
+      {
+        "type": "picker",
+        "question": "How many Oscars were won by the film Matrix at the 2000 Academy Awards ceremony?",
+        "min": 0,
+        "max": 11,
+        "answer": 4
+      },
+      {
+        "type": "fill-blank",
+        "question": "Late American artist Andy Warhol observed:",
+        "start": "“Two people kissing always looks like ",
+        "end": ".”",
+        "answer": "Fish"
+      },
+      {
+        "type": "single-select",
+        "question": "Who played Dr. John Hammond in Jurassic Park?",
+        "options": [
+          "Anthony Hopkins",
+          "Jeff Goldblum",
+          "Richard Attenborough",
+          "Emmet Brown"
+        ],
+        "answer": [2]
+      },
+      {
+        "type": "picker",
+        "question": "What year did the Live Aid concerts take place?",
+        "min": 1965,
+        "max": 1990,
+        "answer": 1985
+      },
+      {
+        "type": "fill-blank",
+        "question": "What is Mr. Burns’ first name?",
+        "answer": "Charles"
+      }
+    ],
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "solved": "false"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "932967441574",
+    "firebase_url": "https://chl-trg.firebaseio.com",
+    "project_id": "chl-trg",
+    "storage_bucket": "chl-trg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932967441574:android:db02fab85f49d2cc",
+        "android_client_info": {
+          "package_name": "com.clickherelabs.texasscottishrite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932967441574-h6k7b7fuj5a35lg1o1mmk9vl693nk9u5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.clickherelabs.texasscottishrite",
+            "certificate_hash": "E376498F81BD7DF377F7B362C86E42D82F244879"
+          }
+        },
+        {
+          "client_id": "932967441574-ck8mtcutlb1bislpenkct84o0pvav8tr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9a-kPcp_TOGuHjjcWjP4dvi5RqPjrQ6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932967441574-ck8mtcutlb1bislpenkct84o0pvav8tr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

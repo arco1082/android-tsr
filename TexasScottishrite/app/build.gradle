@@ -1,0 +1,145 @@
+apply plugin: 'com.android.application'
+
+project.ext.artifactory_credentials = "$System.env._ARTIFACTORY_CREDENTIALS"
+
+def getJenkinsBuildNumber() {
+    return System.getenv("BUILD_NUMBER") ?: "0"
+}
+
+def String getFinalApkName(variant) {
+    return "TSR-" + variant.baseName + "-" + getJenkinsBuildNumber() + ".apk"
+}
+
+//Add build number to APK file name.a
+android.applicationVariants.all { variant ->
+    variant.outputs.each { output ->
+        def file = output.outputFile
+        output.outputFile = new File(file.parent, getFinalApkName(variant))
+    }
+}
+
+//Convenience functions to get Environment Variables
+def getArtifactoryIdentityField(field, index) {
+    //Default to global setting
+    if (project.hasProperty(field)) {
+        return project.ext[field]
+    }
+
+    //Use environment secure credential variable on Jenkins
+    def split_values = project.ext.artifactory_credentials.split(':')
+    if (split_values.size() > index && split_values[index] != null) {
+        return split_values[index]
+    }
+    logger.log(LogLevel.WARN, "Could not find artifactory identity field " + field)
+    return ''
+}
+
+def getArtifactoryUser() {
+    return getArtifactoryIdentityField('ch_artifactory_user', 0)
+}
+
+def getArtifactoryPassword() {
+    return getArtifactoryIdentityField('ch_artifactory_password', 1)
+}
+
+def getReleaseKeystorePath() {
+    return System.getenv("_KEYSTORE") ?: "error"
+}
+
+
+repositories {
+
+
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+
+android {
+    compileSdkVersion project.VERSION_COMPILE_SDK
+    buildToolsVersion project.VERSION_BUILD_TOOLS
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+        preDexLibraries = false
+    }
+
+    defaultConfig {
+        applicationId "com.clickherelabs.texasscottishrite"
+        minSdkVersion project.VERSION_MIN_SDK
+        targetSdkVersion project.VERSION_TARGET_SDK
+        versionCode 1
+        versionName "1.0.0"
+        multiDexEnabled true
+    }
+    signingConfigs {
+
+
+        debug {
+            storeFile file("../keystore/debug.keystore")
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+        release {
+            storeFile file(getReleaseKeystorePath())
+            storePassword System.env._KEYSTORE_PASSWORD
+            keyAlias System.env._KEY_ALIAS
+            keyPassword System.env._KEY_ALIAS_PASSWORD
+        }
+    }
+
+    buildTypes {
+
+        debug {
+            buildConfigField "int", "BUILD_NUMBER", getJenkinsBuildNumber()
+            signingConfig signingConfigs.debug
+            versionNameSuffix ".dbg"
+        }
+
+        release {
+            buildConfigField "int", "BUILD_NUMBER", getJenkinsBuildNumber()
+            signingConfig signingConfigs.release
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE-FIREBASE.txt'
+        exclude 'META-INF/NOTICE'
+    }
+}
+
+dependencies {
+    compile project.DEPENDENCY_APPCOMPAT_V7
+    compile project.DEPENDENCY_RECYCLER_VIEW_V7
+    compile project.DEPENDENCY_ANDROID_DESIGN
+    compile project.DEPENDENCY_CARD_VIEW_V7
+
+    compile project.DEPENDENCY_PICASSO
+
+    compile project.DEPENDENCY_EASY_PERMISSIONS
+    compile project.DEPENDENCY_FASTER_JACKSON
+
+    compile project.DEPENDENCY_PLAY_NEARBY
+    compile project.DEPENDENCY_PLAY_LOCATION
+    compile project.DEPENDENCY_MEDIA_ROUTER
+    compile project.DEPENDENCY_PLAY_CAST
+    compile project.DEPENDENCY_ANDROID_QUERY
+
+    compile project.DEPENDENCY_FIREBASE_UI
+    compile project.DEPENDENCY_FIREBASE_COMMON
+    compile project.DEPENDENCY_FIREBASE_DATABASE
+    compile 'com.android.support:multidex:1.0.1'
+
+    compile 'com.google.code.gson:gson:2.4'
+    compile(name:'audio', ext:'aar')
+    compile(name:'common', ext:'aar')
+    compile(name:'base', ext:'aar')
+    compile(name:'commonwidget', ext:'aar')
+    compile(name:'videowidget', ext:'aar')
+
+}
+
+apply plugin: 'com.google.gms.google-services'

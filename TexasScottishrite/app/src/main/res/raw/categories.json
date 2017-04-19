@@ -1,0 +1,883 @@
+[
+  {
+  "name": "Virtual Tour",
+  "id": "history",
+  "theme": "blue",
+    "action": "360",
+  "quizzes": [
+  {
+  "type": "fill-blank",
+  "question": "The first words spoken on the moon by Buzz Aldrin were these:",
+  "start": "Contact ",
+  "answer": "Light"
+  },
+  {
+  "type": "single-select-item",
+  "question": "What U.S. President committed an unpardonable sin by kissing the Queen Mother on the lips?",
+  "options": [
+  "George W. Bush",
+  "Jimmy Carter",
+  "Barack Obama",
+  "Lyndon B. Johnson",
+  "Ronald Reagan"
+  ],
+  "answer": [1]
+  },
+  {
+  "type": "true-false",
+  "question": "Cleopatra was Egyptian.",
+  "answer": false
+  },
+  {
+  "type": "true-false",
+  "question": "The Rosetta Stone is the name of the limestone slab that became the key for deciphering ancient Egyptian hieroglyphics.",
+  "answer": false
+  },
+  {
+  "type": "fill-blank",
+  "question": "Prior to 1664 New York was called:",
+  "start": "New ",
+  "answer": "Amsterdam"
+  },
+  {
+  "type": "multi-select",
+  "question": "What are the surnames of Bonnie and Clyde?",
+  "options": [
+  "Parson",
+  "Parker",
+  "Patterson",
+  "Barlow",
+  "Barret",
+  "Barrow"
+  ],
+  "answer": [
+  1,
+  5
+  ]
+  },
+  {
+  "type": "four-quarter",
+  "question": "Joan of Arc, in the 15th century, was the first female promoted to this rank in the French army:",
+  "options": [
+  "Lieutenant",
+  "Sergeant",
+  "General",
+  "Captain"
+  ],
+  "answer": [2]
+  },
+  {
+  "type": "picker",
+  "question": "In which year did William Shakespeare die?",
+  "min": 1615,
+  "max": 1635,
+  "answer": 1616
+  },
+  {
+  "type": "single-select",
+  "question": "On which island was Napoleon born?",
+  "options": [
+  "Sardinia",
+  "Corsica",
+  "Tahiti",
+  "Réunion",
+  "New Caledonia"
+  ],
+  "answer": [1]
+  },
+  {
+  "type": "multi-select",
+  "question": "Which states did the United States gain after the Mexican War?",
+  "options": [
+  "Arizona",
+  "New Mexico",
+  "Louisiana",
+  "California",
+  "Nevada",
+  "Utah",
+  "Texas"
+  ],
+  "answer": [
+  1,
+  3,
+  6
+  ]
+  }
+  ],
+  "scores": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+  ],
+  "solved": "false"
+},
+
+  {
+    "name": "Cardboard Game",
+    "id": "sports",
+    "theme": "purple",
+    "action": "cardboard",
+    "quizzes": [
+      {
+        "type": "fill-blank",
+        "question": "What is the national sport of Canada?",
+        "answer": "Lacrosse"
+      },
+      {
+        "type": "four-quarter",
+        "question": "Which country won every Olympic Men’s hockey gold medal from 1928 to 1956?",
+        "options": [
+          "Canada",
+          "Russia",
+          "India",
+          "USA"
+        ],
+        "answer": [2]
+      },
+      {
+        "type": "true-false",
+        "question": "A biathlon event consists of running a half marathon and biking 56 miles.",
+        "answer": false
+      },
+      {
+        "type": "picker",
+        "question": "How many players are in a game of water polo?",
+        "min": 10,
+        "max": 25,
+        "answer": 14
+      },
+      {
+        "type": "toggle-translate",
+        "question": "Which sports and team names are incorrectly associated?",
+        "options": [
+          [
+            "Cleveland Indians",
+            "Baseball"
+          ],
+          [
+            "Leicester Tigers",
+            "Rugby Union"
+          ],
+          [
+            "Bradford Bulls",
+            "Hockey"
+          ],
+          [
+            "Belle Vue Aces",
+            "Poker"
+          ],
+          [
+            "Wigan Wasps",
+            "Lacrosse"
+          ],
+          [
+            "Kent Spitfires",
+            "Cricket"
+          ]
+        ],
+        "answer": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "type": "multi-select",
+        "question": "Which cities have hosted the Olympic games?",
+        "options": [
+          "Athens",
+          "Lake Placid",
+          "Innsbruck",
+          "New York",
+          "Capetown",
+          "St. Mortiz"
+        ],
+        "answer": [
+          0,
+          1,
+          2,
+          4,
+          5
+        ]
+      },
+      {
+        "type": "four-quarter",
+        "question": "Which American was the best paid sportsman in 1920?",
+        "options": [
+          "Jack Dempsey",
+          "Babe Ruth",
+          "Big Bill Tilden",
+          "Bobby Jones"
+        ],
+        "answer": [1]
+      },
+      {
+        "type": "single-select-item",
+        "question": " What do you call a stadium used for cycling events?",
+        "options": [
+          "Cycleplex",
+          "Velodrome",
+          "Pumptrack",
+          "Speedway"
+        ],
+        "answer": [1]
+      },
+      {
+        "type": "fill-blank",
+        "question": "In 1954, Joe Di Maggio married Norma Jean Baker who was also known as?",
+        "answer": "Marilyn Monroe"
+      },
+      {
+        "type": "picker",
+        "question": "About how many kilometers are in a marathon?",
+        "min": 10,
+        "max": 65,
+        "answer": 42
+      }
+    ],
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "solved": "false"
+  },
+  {
+    "name": "Spellcast Game",
+    "id": "food",
+    "theme": "green",
+    "action": "game",
+    "quizzes": [
+      {
+        "type": "four-quarter",
+        "question": "Name the Italian, semi-soft, rich cheese with blue veins through it.",
+        "options": [
+          "Ricotta",
+          "Blue Cheese",
+          "Gorgonzola",
+          "Parmesan"
+        ],
+        "answer": [2]
+      },
+      {
+        "type": "true-false",
+        "question": "Coffee beans contain more caffeine than tea leaves.",
+        "answer": false
+      },
+      {
+        "type": "multi-select",
+        "question": "What are the three ingredients in mead (spices excluded)?",
+        "options": [
+          "Sugar",
+          "Honey",
+          "Cinnamon",
+          "Water",
+          "Brown Sugar",
+          "Yeast",
+          "Salt"
+        ],
+        "answer": [
+          1,
+          3,
+          5
+        ]
+      },
+      {
+        "type": "four-quarter",
+        "question": "What crop does the Colorado Beetle attack?",
+        "options": [
+          "Corn",
+          "Garlic",
+          "Potato",
+          "Wheat"
+        ],
+        "answer": [2]
+      },
+      {
+        "type": "single-select-item",
+        "question": "What vegetable did Mark Twain describe as “cabbage with a college education”?",
+        "options": [
+          "Spinach",
+          "Broccoli",
+          "Cauliflower",
+          "Kale"
+        ],
+        "answer": [2]
+      },
+      {
+        "type": "fill-blank",
+        "question": "What name is given to a sugar syrup which is gently heated until it browns?",
+        "answer": "Caramel"
+      },
+      {
+        "type": "single-select",
+        "question": "In Which city was chop suey invented?",
+        "options": [
+          "Hong Kong",
+          "Taipei",
+          "New York",
+          "San Francisco"
+        ],
+        "answer": [3]
+      },
+      {
+        "type": "picker",
+        "question": "One of the fattiest fishes is salmon. 4 ounces contains how many grams of fat?",
+        "min": 1,
+        "max": 10,
+        "answer": 9
+      },
+      {
+        "type": "fill-blank",
+        "question": "In which American State did chili con carne originate?",
+        "answer": "Texas"
+      },
+      {
+        "type": "four-quarter",
+        "question": "What is the correct name for a cluster or bunch of bananas?",
+        "options": [
+          "Foot",
+          "Hand",
+          "Flock",
+          "Pod"
+        ],
+        "answer": [1]
+      }
+    ],
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "solved": "false"
+  },
+  {
+    "name": "Kaleidescope",
+    "id": "entertainment",
+    "theme": "red",
+    "action": "game",
+    "quizzes": [
+      {
+        "type": "fill-blank",
+        "question": "Where was superman born?",
+        "answer": "Krypton"
+      },
+      {
+        "type": "four-quarter",
+        "question": "What catchphrase is associated with the Daleks from Doctor Who?",
+        "options": [
+          "Eradicate",
+          "Exterminate",
+          "Eliminate",
+          "Execute"
+        ],
+        "answer": [1]
+      },
+      {
+        "type": "picker",
+        "question": "In the film Cool Hand Luke, how many hard boiled eggs did Paul Newman eat to win a bet?",
+        "min": 20,
+        "max": 80,
+        "answer": 50
+      },
+      {
+        "type": "true-false",
+        "question": "Frank Sinatra paid a $240,000 ransom to free his kidnapped son.",
+        "answer": true
+      },
+      {
+        "type": "multi-select",
+        "question": "Which two British actors have played Obi Wan Kenobi in the Star Wars films?",
+        "options": [
+          "Sir Alec Guinness",
+          "David Prowse",
+          "James Earl Jones",
+          "Harrison Ford",
+          "Ewan McGregor",
+          "Anthony Daniels"
+        ],
+        "answer": [
+          0,
+          4
+        ]
+      },
+      {
+        "type": "picker",
+        "question": "How many Oscars were won by the film Matrix at the 2000 Academy Awards ceremony?",
+        "min": 0,
+        "max": 11,
+        "answer": 4
+      },
+      {
+        "type": "fill-blank",
+        "question": "Late American artist Andy Warhol observed:",
+        "start": "“Two people kissing always looks like ",
+        "end": ".”",
+        "answer": "Fish"
+      },
+      {
+        "type": "single-select",
+        "question": "Who played Dr. John Hammond in Jurassic Park?",
+        "options": [
+          "Anthony Hopkins",
+          "Jeff Goldblum",
+          "Richard Attenborough",
+          "Emmet Brown"
+        ],
+        "answer": [2]
+      },
+      {
+        "type": "picker",
+        "question": "What year did the Live Aid concerts take place?",
+        "min": 1965,
+        "max": 1990,
+        "answer": 1985
+      },
+      {
+        "type": "fill-blank",
+        "question": "What is Mr. Burns’ first name?",
+        "answer": "Charles"
+      }
+    ],
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "solved": "false"
+  },
+  {
+    "name": "Augmented Reality",
+    "id": "knowledge",
+    "theme": "yellow",
+    "action": "ar",
+    "quizzes": [
+      {
+        "type": "fill-blank",
+        "question": "Mole is a popular paste in Mexico. Mole is a mixture of chili’s and what other tasty ingredient?",
+        "answer": "Chocolate"
+      },
+      {
+        "type": "four-quarter",
+        "question": "What is the name of the famous art deco skyscraper in New York City?",
+        "options": [
+          "Trump Tower",
+          "Chrysler building",
+          "Empire State Building",
+          "The New York Times Building"
+        ],
+        "answer": [1]
+      },
+      {
+        "type": "multi-select",
+        "question": "Select the names of “The Three Musketeers”.",
+        "options": [
+          "Chevy",
+          "Topeka",
+          "Athos",
+          "Duke",
+          "Porthos",
+          "John Felton",
+          "Aramis"
+        ],
+        "answer": [
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "type": "toggle-translate",
+        "question": "Which is the correct translation of Zorro?",
+        "options": [
+          [
+            "Zorro",
+            "Dog"
+          ],
+          [
+            "Zorro",
+            "Sword"
+          ],
+          [
+            "Zorro",
+            "Fox"
+          ],
+          [
+            "Zorro",
+            "Coyote"
+          ]
+        ],
+        "answer": [2]
+      },
+      {
+        "type": "single-select-item",
+        "question": "Which 1971 film, known for its violence, was the first to use Dolby sound?",
+        "options": [
+          "Straw Dogs",
+          "Dirty Harry",
+          "A Clockwork Orange",
+          "Play Misty for me"
+        ],
+        "answer": [2]
+      },
+      {
+        "type": "picker",
+        "question": "How many counters does a backgammon player have?",
+        "min": 0,
+        "max": 30,
+        "answer": 15
+      },
+      {
+        "type": "true-false",
+        "question": "There is a patron saint of The Internet.",
+        "answer": true
+      },
+      {
+        "type": "alpha-picker",
+        "question": " Which letter other than X scores 8 in Scrabble?",
+        "answer": "J"
+      },
+      {
+        "type": "four-quarter",
+        "question": "Four of the worst ten maritime disasters all took place in 1945. In which sea were all four ships sunk?",
+        "options": [
+          "Mediterranean sea",
+          "Baltic Sea",
+          "The Bermuda Triangle",
+          "Black Sea"
+        ],
+        "answer": [1]
+      },
+      {
+        "type": "single-select",
+        "question": "What nut is used to flavor marzipan?",
+        "options": [
+          "Walnut",
+          "Almond",
+          "Cashew",
+          "Pistachio"
+        ],
+        "answer": [1]
+      }
+    ],
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "solved": "false"
+  },
+  {
+    "name": "Success Stories",
+    "id": "geography",
+    "theme": "red",
+    "action": "game",
+    "video": "",
+    "quizzes": [
+      {
+        "type": "fill-blank",
+        "question": "Name the other state in the USA that starts with the letter A:",
+        "start": "Alabama, Alaska, Arizona, and ",
+        "answer": "Arkansas"
+      },
+      {
+        "type": "toggle-translate",
+        "question": "Select which landmark to American state pairings are correct:",
+        "options": [
+          [
+            "Las Vegas",
+            "Arizona"
+          ],
+          [
+            "Death Valley",
+            "California"
+          ],
+          [
+            "Mount Rushmore",
+            "North Dakota"
+          ],
+          [
+            "Fort Knox",
+            "Kentucky"
+          ],
+          [
+            "Kennedy Space Center",
+            "Florida"
+          ]
+        ],
+        "answer": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "type": "true-false",
+        "question": "A person born in Lombardy is Italian.",
+        "answer": true
+      },
+      {
+        "type": "picker",
+        "question": "Approximately how many kilometers of coastline does the United Kingdom have?",
+        "min": 2000,
+        "max": 5000,
+        "step": 500,
+        "answer": 2500
+      },
+      {
+        "type": "multi-select",
+        "question": "Which three countries have fifty or more nuclear reactors?",
+        "options": [
+          "USA",
+          "Russia",
+          "Canada",
+          "Brazil",
+          "France",
+          "Japan",
+          "China"
+        ],
+        "answer": [
+          0,
+          4,
+          5
+        ]
+      },
+      {
+        "type": "fill-blank",
+        "question": "What country would you visit to see Casablanca?",
+        "answer": "Morocco"
+      },
+      {
+        "type": "single-select-item",
+        "question": "In which city was the 1992 Olympics?",
+        "options": [
+          "Atlanta",
+          "Barcelona",
+          "Seoul",
+          "Sydney"
+        ],
+        "answer": [1]
+      },
+      {
+        "type": "fill-blank",
+        "question": " What food is named after a northern German city on the river Elbe?",
+        "answer": "Hamburger"
+      },
+      {
+        "type": "multi-select",
+        "question": "Select two countries that are linked by the Brenner Pass:",
+        "options": [
+          "Germany",
+          "Croatia",
+          "Austria",
+          "Switzerland",
+          "France",
+          "Italy",
+          "Czech Republic"
+        ],
+        "answer": [
+          2,
+          5
+        ]
+      },
+      {
+        "type": "single-select",
+        "question": "Where can you find the Pensacola Mountains?",
+        "options": [
+          "Florida",
+          "Switzerland",
+          "Antarctica",
+          "Argentina"
+        ],
+        "answer": [2]
+      }
+    ],
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "solved": "false"
+  },
+  {
+    "name": "Success Stories",
+    "id": "geography",
+    "theme": "red",
+    "action": "360",
+    "video": "",
+    "quizzes": [
+      {
+        "type": "fill-blank",
+        "question": "Name the other state in the USA that starts with the letter A:",
+        "start": "Alabama, Alaska, Arizona, and ",
+        "answer": "Arkansas"
+      },
+      {
+        "type": "toggle-translate",
+        "question": "Select which landmark to American state pairings are correct:",
+        "options": [
+          [
+            "Las Vegas",
+            "Arizona"
+          ],
+          [
+            "Death Valley",
+            "California"
+          ],
+          [
+            "Mount Rushmore",
+            "North Dakota"
+          ],
+          [
+            "Fort Knox",
+            "Kentucky"
+          ],
+          [
+            "Kennedy Space Center",
+            "Florida"
+          ]
+        ],
+        "answer": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "type": "true-false",
+        "question": "A person born in Lombardy is Italian.",
+        "answer": true
+      },
+      {
+        "type": "picker",
+        "question": "Approximately how many kilometers of coastline does the United Kingdom have?",
+        "min": 2000,
+        "max": 5000,
+        "step": 500,
+        "answer": 2500
+      },
+      {
+        "type": "multi-select",
+        "question": "Which three countries have fifty or more nuclear reactors?",
+        "options": [
+          "USA",
+          "Russia",
+          "Canada",
+          "Brazil",
+          "France",
+          "Japan",
+          "China"
+        ],
+        "answer": [
+          0,
+          4,
+          5
+        ]
+      },
+      {
+        "type": "fill-blank",
+        "question": "What country would you visit to see Casablanca?",
+        "answer": "Morocco"
+      },
+      {
+        "type": "single-select-item",
+        "question": "In which city was the 1992 Olympics?",
+        "options": [
+          "Atlanta",
+          "Barcelona",
+          "Seoul",
+          "Sydney"
+        ],
+        "answer": [1]
+      },
+      {
+        "type": "fill-blank",
+        "question": " What food is named after a northern German city on the river Elbe?",
+        "answer": "Hamburger"
+      },
+      {
+        "type": "multi-select",
+        "question": "Select two countries that are linked by the Brenner Pass:",
+        "options": [
+          "Germany",
+          "Croatia",
+          "Austria",
+          "Switzerland",
+          "France",
+          "Italy",
+          "Czech Republic"
+        ],
+        "answer": [
+          2,
+          5
+        ]
+      },
+      {
+        "type": "single-select",
+        "question": "Where can you find the Pensacola Mountains?",
+        "options": [
+          "Florida",
+          "Switzerland",
+          "Antarctica",
+          "Argentina"
+        ],
+        "answer": [2]
+      }
+    ],
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "solved": "false"
+  }
+]

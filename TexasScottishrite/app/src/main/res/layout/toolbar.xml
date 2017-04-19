@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar_player"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/abc_action_bar_default_height_material"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:background="@color/colorPrimary">
+
+    <com.clickherelabs.texasscottishrite.widget.AvatarView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/size_avatar_toolbar"
+        android:layout_height="@dimen/size_avatar_toolbar"
+        android:layout_marginEnd="@dimen/spacing_double"
+        android:layout_marginRight="@dimen/spacing_double"
+        android:transitionName="@string/transition_avatar"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="PrivateResource"
+        style="@style/Topeka.TextAppearance.Title.Inverse"
+        android:layout_gravity="center_vertical|start" />
+
+    <TextView android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Topeka.TextAppearance.Title.Inverse"
+        android:layout_gravity="center_vertical|end"
+        android:paddingEnd="@dimen/spacing_micro"
+        android:paddingStart="@dimen/spacing_micro"
+        tools:ignore="NewApi" />
+</android.support.v7.widget.Toolbar>

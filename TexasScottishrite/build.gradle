@@ -1,0 +1,71 @@
+buildscript {
+    repositories {
+        maven { url 'http://repo1.maven.org/maven2' }
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+        mavenLocal()
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.1'
+        classpath 'com.google.gms:google-services:3.0.0'
+    }
+
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenLocal()
+    }
+}
+
+ext {
+
+    VERSION_MIN_SDK = 19
+    VERSION_TARGET_SDK = 25
+    VERSION_COMPILE_SDK = 25
+    VERSION_BUILD_TOOLS = "25.0.2"
+    VERSION_ANDROID_LIBRARY = "23.4.0"
+    VERSION_DAGGER = '2.0'
+    VERSION_BUTTERKNIFE = '6.0.0'
+    VERSION_RETROFIT = '1.9.0'
+    VERSION_OTTO = '1.3.5'
+    VERSION_PICASSO = '2.5.2'
+    VERSION_FIREBASE = '9.2.0'
+    VERSION_PLAY_SERVICES = '9.2.0'
+
+    DEPENDENCY_PLAY_SERVICES = "com.google.android.gms:play-services:${VERSION_PLAY_SERVICES}"
+    DEPENDENCY_SUPPORT_V4 = "com.android.support:support-v4:${VERSION_ANDROID_LIBRARY}"
+    DEPENDENCY_RECYCLER_VIEW_V7 = "com.android.support:recyclerview-v7:${VERSION_ANDROID_LIBRARY}"
+    DEPENDENCY_CARD_VIEW_V7 = "com.android.support:cardview-v7:${VERSION_ANDROID_LIBRARY}"
+
+    DEPENDENCY_ANDROID_DESIGN = "com.android.support:design:${VERSION_ANDROID_LIBRARY}"
+    DEPENDENCY_APPCOMPAT_V7 = "com.android.support:appcompat-v7:${VERSION_ANDROID_LIBRARY}"
+
+    DEPENDENCY_RETROFIT = "com.squareup.retrofit:retrofit:${VERSION_RETROFIT}"
+
+    DEPENDENCY_OTTO = "com.squareup:otto:${VERSION_OTTO}"
+
+    DEPENDENCY_PICASSO = "com.squareup.picasso:picasso:${VERSION_PICASSO}"
+
+    DEPENDENCY_FIREBASE_UI = "com.firebaseui:firebase-ui-database:0.4.0"
+    DEPENDENCY_FIREBASE_CORE = "com.google.firebase:firebase-core:${VERSION_FIREBASE}"
+    DEPENDENCY_FIREBASE_COMMON = "com.google.firebase:firebase-common:${VERSION_FIREBASE}"
+    DEPENDENCY_FIREBASE_DATABASE = "com.google.firebase:firebase-database:${VERSION_FIREBASE}"
+    DEPENDENCY_FIREBASE_CRASH = "com.google.firebase:firebase-crash:${VERSION_FIREBASE}"
+    DEPENDENCY_FIREBASE_MESSAGING = "com.google.firebase:firebase-messaging:${VERSION_FIREBASE}"
+
+    DEPENDENCY_EASY_PERMISSIONS = 'pub.devrel:easypermissions:0.1.5'
+    DEPENDENCY_FASTER_JACKSON = 'com.fasterxml.jackson.core:jackson-databind:2.7.3'
+
+    DEPENDENCY_PLAY_VISION = "com.google.android.gms:play-services-vision:${VERSION_PLAY_SERVICES}"
+    DEPENDENCY_PLAY_GAMES = "com.google.android.gms:play-services-games:${VERSION_PLAY_SERVICES}"
+    DEPENDENCY_PLAY_NEARBY = "com.google.android.gms:play-services-nearby:${VERSION_PLAY_SERVICES}"
+    DEPENDENCY_PLAY_LOCATION = "com.google.android.gms:play-services-location:${VERSION_PLAY_SERVICES}"
+    DEPENDENCY_PLAY_GAME = "com.google.android.gms:play-services-games:${VERSION_PLAY_SERVICES}"
+    DEPENDENCY_PLAY_PLUS = "com.google.android.gms:play-services-plus:${VERSION_PLAY_SERVICES}"
+    DEPENDENCY_MEDIA_ROUTER = "com.android.support:mediarouter-v7:${VERSION_ANDROID_LIBRARY}"
+    DEPENDENCY_PLAY_CAST = "com.google.android.gms:play-services-cast-framework:${VERSION_PLAY_SERVICES}"
+    DEPENDENCY_ANDROID_QUERY = 'com.googlecode.android-query:android-query:0.25.9'
+}
